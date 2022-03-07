@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title> my page</title>
+</head>
+<body>
+    <script type="text/javascript">
+    class n1 
+    {
+        constructor(a,b)
+        {
+            this.a=a
+            this.b=b
+        }
+         add()
+        {
+        this.c=this.a + this .b
+        return this.c
+        }
+        sub ()
+        {
+            this.d=this.b - this.a
+            document.write("<br>")
+            document.write("The Sunstarction Result is :",this.d)
+        }
+    }
+    class n2 extends n1
+    {
+      constructor (a,b,c1)
+      {
+          super ()
+          this.c1=c1
+      }
+      process ()
+      {
+          this.e=this.add()
+          document.write(this.e)
+      }
+    }
+
+    
+be=new n2(10,20,50)
+be.process()
+
+    </script>
+</body>
+</html>

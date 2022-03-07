@@ -1,0 +1,54 @@
+.op1
+{
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+     height:100px;
+         background-color: black;
+    
+}
+nav 
+{
+    color:aqua;
+    padding:50px;
+    margin:10px;
+}
+body{
+    background-image: url("th2.jpg");  
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
+     background-attachment: fixed;
+   }
+   
+   .n1
+   {
+       background-image: url("th.jpg");  
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
+     background-attachment: fixed  ;
+     position:fixed;
+     bottom:250px;
+     top:250px;
+     left:150px;
+     height:450px;
+     width:400px;
+   margin-left: 30px;
+   padding:10px;
+   color:aqua;
+   
+   }
+   .we1
+   {
+     margin:10px;
+   }
+   .we2
+   {
+     margin:10px;
+   }
+   .we3
+   {
+     margin:10px;
+   }

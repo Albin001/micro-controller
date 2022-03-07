@@ -1,0 +1,61 @@
+.we1
+{
+  margin:10px;
+}
+.we2
+{
+  margin:10px;
+}
+.we3
+{
+  margin:10px;
+}
+.op1
+{
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+     height:100px;
+         background-color: black;
+    
+}
+nav 
+{
+    color:aqua;
+    padding:50px;
+    margin:10px;
+}
+.we1
+{
+    text-decoration: none;
+    color:aqua;
+}
+.we1:hover
+{
+    background-color:grey;
+}
+.we2:hover
+{
+    background-color:grey;
+}
+.we3:hover
+{
+    background-color:grey;
+}
+a
+{
+    text-decoration: none;
+    color:aqua;
+}
+.we4
+{
+margin:10px;
+float:right;
+display:inline;
+
+}
+.we4:hover
+{
+    background-color:grey;
+}

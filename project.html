@@ -1,0 +1,40 @@
+<html>
+    <head>
+<title> My page</title>
+<link rel="stylesheet" type="text/css" href="p1.css" />
+<script type="text/javascript">
+function check()
+{
+    a1="admin"
+    a3="ece@123"
+    a4=document.getElementById("us1").value 
+    a5=document.getElementById("pass").value
+    if(a4==a1 && a5==a3)
+    {
+        alert("Your Password is Correct")
+        return true
+    }
+    else
+    {
+        alert("Your password is Not Correct")
+        return false
+    }
+}
+</script>
+</head>
+    <body>
+        <div class="n1">
+            <form method="get" action="project1.html" onsubmit="return check()">
+                <label name="us1">User Name:</label>
+                <input type="text" id="us1" placeholder="Enter your User Name" />
+                <br> <br> 
+                <label name="pass">Passwod:</label>
+                <input type="password" id="pass" placeholder="Enter your Pasword " />
+                <br> <br> 
+                <input type="submit" value="Submit" />
+                <br> <br>  
+                <input type="reset" value="reset" />
+            </form>
+        </div>
+    </body>
+</html>
